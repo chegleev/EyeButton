@@ -11,4 +11,4 @@ val result = eyeButton(
     tint = Color.Black
 )
 ```
-![Image](img.jpg)
+![Image](img.gif)
