@@ -1,5 +1,7 @@
 # EyeButton
 
+# Usage
+
 ```kotlin
 val result = eyeButton(
     background = Color.LightGray,
@@ -9,3 +11,4 @@ val result = eyeButton(
     tint = Color.Black
 )
 ```
+![Image](img.jpg)
