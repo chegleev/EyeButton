@@ -215,10 +215,10 @@ val eye_closed = ImageVector.Builder(
 @Composable
 fun eyeButton(
     background: Color = Color.White,
-    padding: Dp = 0.dp,
-    size: Dp = 0.dp,
-    rounded: Int = 0,
-    tint: Color = Color.Green
+    padding: Dp = 10.dp,
+    size: Dp = 108.dp,
+    rounded: Int = 50,
+    tint: Color = Color.White
 ): Boolean {
     var ret by remember { mutableStateOf(false) }
     var im by remember { mutableStateOf(eye_closed) }
